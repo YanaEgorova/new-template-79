@@ -1,0 +1,34 @@
+.hero__wrapper { 
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero {
+    padding: 45rem 0 30rem;
+    text-align: center;
+    text-align: left;
+}
+.hero .title {
+    margin-bottom: 2rem;
+}
+.hero .text {
+    margin-bottom: 5rem;
+}
+.info__wrapper {
+    background-color: var(--third-brand-color);
+}
+.info {
+    padding: 10rem 0;
+    text-align: center;
+}
+.info .title {
+    font-size: 4rem;
+    line-height: 2;
+}
+@media screen and (min-width: 1440px) {
+   .hero .btn:hover {
+       border-color: var(--main-text-color);
+       color: var(--main-text-color);
+   }
+}

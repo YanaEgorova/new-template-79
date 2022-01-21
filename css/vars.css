@@ -1,0 +1,22 @@
+:root {
+  --main-bg-color: #fff;
+  --sub-bg-color: #000;
+  --main-text-color: #fff;
+  --sub-text-color: #fff;
+  --inactive: #818181;
+  --success: #bee3be;
+  --link-color: blue;
+  --accent-color: #ff0000;
+  --sub-sub-text-color: #000;
+
+
+  --first-brand-color: #1b1948;
+  --second-brand-color: #f14946;
+  --third-brand-color: #502342;
+
+  --main-font:  'PT Sans';
+  --title-font:  'PT Sans Bold';
+  --main-title-font: 'Montserrat';
+
+  font-size: 62.5%;
+}
