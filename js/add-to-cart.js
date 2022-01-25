@@ -34,7 +34,7 @@ function addToCart(e) {
     const name = e.currentTarget.closest('.js_product').querySelector('.js_product-name').textContent;
 
 
-    let total = parseFloat(e.currentTarget.closest('.js_product').querySelector('.product__price').textContent.substr(1));
+    let total = parseFloat(e.currentTarget.closest('.js_product').querySelector('.product__price').textContent.trim().substr(1));
     let okay = true;
 
     getLocalStorageItem().forEach(product => {
