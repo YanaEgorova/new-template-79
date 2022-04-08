@@ -86,7 +86,12 @@
     width: 4rem;
     text-align: center;
 }
-
+.disable-btn {
+    pointer-events: none;
+}
+.disable-btn svg {
+    opacity: 0.3;
+}
 
 .prod__subtitle {
     margin-bottom: 1rem;
